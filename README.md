@@ -168,7 +168,7 @@ But here they are again:
 1. Click `Create an app`
     - You now can see your `Client ID` and `Client Secret`
 1. Now click `Edit Settings`
-1. Add `http://localhost:8888/callback` to the Redirect URIs
+1. Add `http://127.0.0.1:8888/callback` to the Redirect URIs
 1. Scroll down and click `Save`
 1. You are now ready to authenticate with Spotify!
 1. Go back to the terminal
@@ -177,7 +177,7 @@ But here they are again:
 1. Enter your `Client Secret`
 1. Press enter to confirm the default port (8888) or enter a custom port
 1. You will be redirected to an official Spotify webpage to ask you for permissions.
-1. After accepting the permissions, you'll be redirected to localhost. If all goes well, the redirect URL will be parsed automatically and now you're done. If the local webserver fails for some reason you'll be redirected to a blank webpage that might say something like "Connection Refused" since no server is running. Regardless, copy the URL and paste into the prompt in the terminal.
+1. After accepting the permissions, you'll be redirected to 127.0.0.1. If all goes well, the redirect URL will be parsed automatically and now you're done. If the local webserver fails for some reason you'll be redirected to a blank webpage that might say something like "Connection Refused" since no server is running. Regardless, copy the URL and paste into the prompt in the terminal.
 
 And now you are ready to use the `spotify-tui` 🎉
 
